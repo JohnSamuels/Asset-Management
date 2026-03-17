@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="af77e8bf83e332108a9ce7d0deaad3cf" label="Asset Inventory" max_length="40" name="x_1515618_asset_0_asset_inventory" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
