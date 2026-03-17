@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="af77e8bf83e332108a9ce7d0deaad3cf" label="Asset Inventory" max_length="40" name="x_1515618_asset_0_asset_inventory" type="collection">
+        <element label="Asset Requester" max_length="32" name="asset_requester" reference="sys_user" type="reference"/>
+        <element label="Asset Type" max_length="40" name="asset_type" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="asset_requester"/>
+        </index>
     </element>
 </database>
